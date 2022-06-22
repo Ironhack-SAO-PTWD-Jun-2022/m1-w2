@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aula 4</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+
+    <!-- elementos de bloco -->
+
+    <div>div é o elemento mais utilizado!</div>
+
+    <p>parágrafo é um elemento de bloco!</p>
+    <p>Isso é outro parágrafo!</p>
+
+    <pre>Texto pre-formatado</pre>
+
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+
+    <ol>
+      OL
+      <li>primeiro item</li>
+      <li>segundo item</li>
+      <li>terceiro item</li>
+    </ol>
+    <ul>
+      UL
+      <li>primeiro item</li>
+      <li>segundo item</li>
+      <li>terceiro item</li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Bootcamp</th>
+        <th>City</th>
+      </tr>
+      <tr>
+        <td>Renata Inojosa</td>
+        <td>Web dev</td>
+        <td>SAO</td>
+      </tr>
+      <tr>
+        <td>Trevor Belmont</td>
+        <td>UXUI</td>
+        <td>MIA</td>
+      </tr>
+    </table>
+
+    <form action="/users" method="post">
+      <label for="name">Name:</label>
+      <input id="name" type="text" />
+      <button type="submit">Save</button>
+    </form>
+
+    <form action="/users" method="post">
+      <fieldset>
+        <input type="radio" id="radio" />
+        <label for="radio">Click me</label>
+      </fieldset>
+    </form>
+
+    <!-- elementos inline -->
+
+    <p>texto <em>lorem ipsum</em> cheio de <i>groselha</i></p>
+    <p>outro texto usando o <strong>strong</strong> ou o <b>bold</b></p>
+
+    <a href="http://www.google.com" target="_blank">Google</a>
+    <br />
+    <a href="http://www.facebook.com" target="_blank">Facebook</a>
+
+    <img src='Breakfast.jpg' alt='breakfast with guava and cheese' />
+
+    <script>
+      for(let i = 0; i < 10; i += 1) {
+        console.log(i)
+      }
+    </script>
+
+    <button>Click me!</button>
+
+    <div>
+      <label for="meu-input">Username:</label>
+      <input type='text' id="meu-input" placeholder='seu nome'/>
+    </div>
+    
+    <div>
+      <label for="meu-select">Selecione um:</label>
+      <select id="meu-select">
+        <option value=""></option>
+        <option value="1">opção 1</option>
+        <option value="2">opção 2</option>
+        <option value="3">opção 3</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="meu-textArea">Descreva:</label>
+      <textarea rows="5" cols="40" placeholder="digite a descrição aqui">Era uma vez...</textarea>
+    </div>
+  </body>
+</html>

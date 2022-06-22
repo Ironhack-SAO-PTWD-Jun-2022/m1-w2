@@ -1,0 +1,42 @@
+/* universal */
+* {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* seletores de tipo */
+
+body {
+  background-color: black;
+}
+
+div {
+  width: 200px;
+  height: 100px;
+}
+
+p {
+  color: white;
+  background-color: #00FF0030;
+  font-weight: bold;
+}
+
+/* seletores de classe */
+.red-box {
+  background-color: red;
+}
+
+.purple-box {
+  background-color: rebeccapurple;
+}
+
+.big-text {
+  font-size: 30px;
+}
+
+/* seletor de ID */
+#third-box {
+  width: 472px;
+}
