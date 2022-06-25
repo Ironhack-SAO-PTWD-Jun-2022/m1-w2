@@ -1,0 +1,44 @@
+/* SELETORES AVANÇADOS */
+
+/* toda div descendente da main */
+main div {
+  font-size: 30px;
+}
+
+/* descendente direto */
+main > div {
+  background-color: #ededed;
+}
+
+nav > div {
+  color: red;
+}
+
+/*
+  irmão / sibling 
+  p que estiver logo depois de uma div
+*/
+div + p {
+  background-color: #edffed;
+}
+
+/* múltiplos */
+header,
+#title {
+  font-weight: bolder;
+}
+
+div > em,
+nav,
+p + p {
+  background-color: #ffabab;
+}
+
+/* atributo */
+input[class*="input"] {
+  width: 300px;
+}
+
+input[name] {
+  border-radius: 3px;
+}

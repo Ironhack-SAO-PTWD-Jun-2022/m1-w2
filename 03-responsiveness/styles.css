@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25px;
+}
+
+.responsive-div {
+  width: 150px;
+  height: 150px;
+  background-color: coral;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 701px) {
+  .responsive-div {
+    width: 300px;
+    height: 10vmax;
+  }
+  div {
+    font-size: 40px;
+  }
+  .rem > p {
+    font-size: 2rem;
+  }
+  .em > p {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .responsive-div {
+    background-color: cadetblue;
+    width: 600px;
+  }
+}

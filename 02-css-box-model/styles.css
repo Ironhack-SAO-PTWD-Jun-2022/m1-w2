@@ -1,0 +1,49 @@
+div {
+  background-color: #00d1ae;
+  width: 170px;
+
+  /* -- BORDA -- */
+  /* border-width: 2px; */
+  /* border-style: solid; */
+  /* border-color: #17212e; */
+  /* border shorthand */
+  border: 1px solid #17212e;
+  /* border-bottom-width: 4px; */
+  /* border-width: 1px 3px 5px 10px; ^ > v <
+  border-color: red blue yellow rebeccapurple;
+  border-style: solid dashed dotted double; */
+
+  /* -- PADDING -- */
+  padding: 10px;
+  /* padding-top: 15px; */
+
+  /* -- BOX SIZING -- */
+  /* box-sizing: border-box; */
+
+  /* -- MARGIN -- */
+  margin: 10px;
+}
+
+.circular-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 40px;
+  border-bottom-right-radius: 0;
+
+}
+
+.container {
+  width: 100%;
+  background-color: transparent;
+}
+
+.border-box{
+  height: 60px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.content-box {
+  height: 60px;
+  box-sizing: content-box;
+}
